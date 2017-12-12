@@ -10,7 +10,7 @@ protected:
     string indic;
 
 public:
-    Poetry(string author, string title, string editor, string isbn, string target, string lib_id, string drawer, bool state=1);
+    Poetry(string author, string title, string editor, string isbn, Target target, string lib_id, string drawer, bool state=1);
     string get_indic(){ return indic;}
     void affiche();
 };

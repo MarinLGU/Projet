@@ -4,7 +4,7 @@
 #include "Comic.h"
 
 
-Comic::Comic(string author, string title, string editor, string isbn, string target, string lib_id, string drawer, bool state)
+Comic::Comic(string author, string title, string editor, string isbn, Target target, string lib_id, string drawer, bool state)
 :Book(author,title,editor,isbn,target, lib_id,state){
     this->drawer=drawer;
 }

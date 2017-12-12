@@ -3,5 +3,5 @@ project(Projet)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Book.h Book.cpp Comic.h Comic.cpp Poetry.h)
+set(SOURCE_FILES main.cpp Book.h Book.cpp Comic.h Comic.cpp Poetry.h target.h)
 add_executable(Projet ${SOURCE_FILES})

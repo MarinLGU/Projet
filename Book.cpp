@@ -5,7 +5,8 @@
 
 unsigned Book::book_id=0;
 
-Book::Book(string author, string title, string editor, string isbn, string target, string lib_id, bool state){
+
+Book::Book(string author, string title, string editor, string isbn, Target target, string lib_id, bool state){
     this->author=author;
     this->title=title;
     this->editor=editor;
